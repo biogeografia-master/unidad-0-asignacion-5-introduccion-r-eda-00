@@ -114,20 +114,33 @@ data(...) #Ambiental
 ...
 ```
 
--   Explora la estructura de la matriz ambiental
+-   Explora la estructura de ambas matrices
 
 ``` r
 str(...)
+str(...)
 ```
 
--   Despliega la matriz de comunidad del conjunto de datos `doubs` (es un data frame denominado `fish` dentro del conjunto `doubs`)
+### `BCI`
+
+-   Carga el conjunto de datos `BCI`. La matriz de comunidad se denomina `BCI` y la ambiental `BCI.env`. Dado que este conjunto pertenece al paquete `vegan`, y ya habrás cargado dicho paquete, no tendrás que cargarlo.
 
 ``` r
-doubs$...
+library(...)
+data(...) #Comunidad
+data(...) #Ambiental
 ```
 
--   Explora la estructura de la matriz de comunidad
+-   Despliega ambas matrices
 
 ``` r
+...
+...
+```
+
+-   Explora la estructura de ambas matrices
+
+``` r
+str(...)
 str(...)
 ```
